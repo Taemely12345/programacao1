@@ -45,3 +45,11 @@ height: 100%;
     border-radius: 0.6rem;
     font-size: 1vw;
 }
+.cartao   conteudo{
+    background-color: var(--card-front-color);
+    text-align: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transorm 300ms ease-in-out
+}
+.cartao__conteudo h3{
